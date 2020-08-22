@@ -1,0 +1,233 @@
+
+body {
+    margin: 0 auto;
+    height: 100vh;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+/* HEADER and NAV */
+nav {
+    height: 50px;
+    padding-top: 23px;
+}
+
+nav ul {
+    padding:0;
+    float: right;
+    margin-right:100px;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:hover {
+    opacity: .8;
+    color: #fff;
+}
+
+nav li a:visited {
+    color: #fff;
+}
+
+nav li a:active {
+    color: #fff;
+}
+
+.mainLogo {
+    width: 15%;
+}
+
+header {
+    text-align:center;
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url("./images/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg")
+}
+
+header p {
+    color: #fff;
+    font-weight: 1;
+}
+
+header h3 {
+    font-weight: 800;
+}
+
+h3 {
+    color: white;
+    font-weight: 1; 
+
+}
+
+h5 {
+    color: #2DBD9D;
+    font-size: 12px;
+}
+
+h6 {
+    font-size: 10px;
+    color: #fff;
+    opacity: .6;
+    margin-top: 10px;
+}
+
+h6 a:visited {
+    color:white;
+}
+
+.mainTop {
+    padding: 40px;
+}
+.topButton {
+    background: #fff;
+    color: #040505;
+    padding: 20px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+}
+
+.topButton:hover {
+    opacity: .8;
+}
+
+.ribbon {
+    background: linear-gradient(318.68deg,#0F495C 0%,#0D3640 49.72%,#08141F 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.ribbonContainer {
+    margin: auto;
+    display: flex;
+    width: 80vw;
+}
+
+.ribbon img {
+    padding: 25px;
+    margin-left: 10px;
+    height: 75px;
+
+
+}
+
+.ribbonMiddle {
+    flex: 1;
+
+}
+
+.ribbonMiddle a {
+    color: #fff;
+    opacity: .7;
+    font-size: 14px;
+    text-decoration-line: underline;
+
+}
+
+.ribbonButton {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 20px;
+    font-weight: bold;
+    color: #fff;
+    flex: 1;
+    margin-top: 30px;
+    opacity: .8;
+    
+}
+
+.ribbonRight {
+    margin-right: 100px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+/* VIDEOS SECTION */
+.videos {
+    background-color:#f5f6f7;
+    max-width: 100vw;
+}
+
+.videosImg {
+    max-width: 80vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* PLANS TABLE */
+table td{
+    padding: 20px;
+    border-bottom: 1px solid #F7F8FA;
+}
+
+.tableButton {
+    padding: 15px 25px 15px 25px;
+    background-color: black;
+    border:none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight:bold;
+}
+
+.tableButton:hover {
+    opacity: .8;
+}
+
+.middleBoxes {
+    background-color: rgba(0,0,0,.01)
+}
+
+.plans {
+    margin: 25px auto;
+    text-align:center;
+
+}
+
+.selectPlanText {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.selectPlanTextLeft {
+    text-align: left;
+    padding-left: 0;
+}
+
+.plansLeftCol {
+    text-align: left;
+    padding-left: 0;
+}
+
+/* CALL TO ACTION */
+.footerCallToAction {
+    width: 80vw;
+}
+
+.footerCallToAction h3 {
+    font-size: 22px;
+    color: black;
+}
+
+.footerImage {
+    float:right;
+    height: 40px;
+}
+
+/* FOOTER */
