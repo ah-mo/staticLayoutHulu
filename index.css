@@ -215,9 +215,18 @@ table td{
     padding-left: 0;
 }
 
+/* SECTION DIVIDE */
+
+.sectionDivide {
+    height: 90px;
+    background-color: #f5f6f7;
+}
+
 /* CALL TO ACTION */
 .footerCallToAction {
     width: 80vw;
+    height: 236px;
+    margin: auto;
 }
 
 .footerCallToAction h3 {
@@ -225,9 +234,21 @@ table td{
     color: black;
 }
 
-.footerImage {
+.footerCallToAction img {
+    width: 300px;
+    margin-top:-200px;
     float:right;
-    height: 40px;
 }
 
 /* FOOTER */
+footer {
+    background-color: #f5f6f7;
+}
+
+footer p {
+    
+}
+
+.footerContainer {
+    width: 80vw;
+}
